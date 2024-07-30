@@ -2,17 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Separator(props) {
-    return (
-    <div className="separator" style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        marginBottom: "30px",
-    }}>
+  return (
+    <>
+      <style>
+        {`
+          .separator {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+          }
+        `}
+      </style>
+      <div className="separator" style={{ fontSize: props.fontSize }}>
         <h4>{props.title}</h4>
-        <a className="view-all" href={props.to}><Link to={props.to}>View All</Link></a>
-    </div>
-    )
+        {props.view ? (
+          <Link className="view-all" to={props.to}>
+            View All
+          </Link>
+        ) : null}
+      </div>
+    </>
+  );
 }
 
 export default Separator;

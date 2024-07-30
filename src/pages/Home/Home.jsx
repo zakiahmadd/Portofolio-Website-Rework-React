@@ -2,10 +2,9 @@ import Header from "../../components/Header/Header.jsx";
 import React, { useState } from "react";
 import Card from "./Card.jsx";
 import Separator from "../../components/Separator.jsx";
-import ProjectPost from "../../components/ProjectPost.jsx";
+import ProjectsContainer from "../../components/ProjectsContainer.jsx";
 import "./Home.css";
 import postData from "../../data/post-data.jsx";
-import projectData from "../../data/project-data.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import profilePic from '../../assets/berdiri.JPG';
 
@@ -53,7 +52,7 @@ function HomePage() {
       </div>
 
       <div className="recent">
-        <Separator title="Recent Post" to="/posts"/>
+        <Separator title="Recent Post" to="/posts" view={true}/>
         <div className="posts">
           {usedPostData.map((post) => {
             return (
@@ -68,22 +67,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div class="featured">
-        <Separator title="Featured Projects" to="/projects" />
-        <div class="projects" >
-          {projectData.map((post) => {
-            return (
-              <ProjectPost
-                title={post.title}
-                year={post.year}
-                tags={post.tags}
-                description={post.description}
-                img={post.imgSrc}
-              />
-            );
-          })}
-        </div>
-      </div>
+      <ProjectsContainer view={true}/>
       <Footer />
     </>
   );

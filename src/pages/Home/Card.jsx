@@ -11,7 +11,7 @@ function Card(props) {
                 <h5>{props.postType}</h5>
             </div>
             <p>{props.description}</p>
-            <MoreLink />
+            {/* <MoreLink /> */}
         </div>
     )
 }

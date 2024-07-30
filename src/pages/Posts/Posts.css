@@ -1,0 +1,43 @@
+.post {
+    background-color: #00adb5;
+    margin: 0px 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 25px;
+}
+
+.post h5 {
+    font-size: 18px;
+}
+
+.post .info {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post .button-group {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.post .button-group i{
+    transition: all 0.3s ease;;
+    font-size: 25px;
+}
+
+.post .button-group i:hover {
+    transform: scale(1.2);
+    color: #eeeeee;
+}

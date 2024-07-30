@@ -1,0 +1,68 @@
+.about-container {
+    padding: 40px 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-container .header{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.profile-container {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    margin: 0px 30px;
+    margin-top: 30px;
+    background-color: #00adb5;
+    border-radius: 20px;
+    gap: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container img{
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container .about-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.about-item h4 {
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about-item .contact-me {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.profile-container .download{
+    margin-top: 5px;
+    padding: 5px 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px #222831 solid;
+    background-color: #5cb85c;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profile-container .download:hover{
+    background-color: #5bc0de;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}

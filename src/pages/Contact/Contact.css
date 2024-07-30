@@ -1,0 +1,72 @@
+.contact-container {
+    padding: 40px 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-container .header {
+    font-size: 30px;
+}
+
+.contact-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-container form input{
+    border-radius: 5px;
+    border: #222831 2px solid;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contact-container form textarea{
+    border-radius: 5px;
+    border: #222831 2px solid;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    height: 200px;
+}
+
+.contact-container .form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #00adb5;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.form-container button{
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #5cb85c;
+    border: solid #222831 1px;
+    border-radius: 5px;
+    align-self: flex-end;
+    width: 100px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    font-weight: 500;
+}
+.form-container button:hover{
+    background-color: #5bc0de;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+form label {
+    font-size: 18x;
+    font-weight: 500;
+}

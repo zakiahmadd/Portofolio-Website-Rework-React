@@ -49,7 +49,7 @@ function ProjectPost(props) {
         <p>
           {props.description}
         </p>
-        <MoreLink />
+        {props.more ? <MoreLink /> : null}
       </div>
     </div>
   );
