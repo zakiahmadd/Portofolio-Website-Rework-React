@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00adb5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.footer .footer-logo i{
+    font-size: 35px;
+    color: #222831;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer .footer-logo i:hover {
+    color: #5bc0de;
+}
+
+.footer p {
+    font-size: 15px;
+    opacity: 50%;
+}
