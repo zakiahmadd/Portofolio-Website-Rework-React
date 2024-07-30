@@ -1,0 +1,9 @@
+a{
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #5bc0de;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
