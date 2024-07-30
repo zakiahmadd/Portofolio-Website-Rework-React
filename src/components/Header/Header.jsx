@@ -9,11 +9,11 @@ function Header() {
             <nav>
                 <img src={unpadLogo} alt="Logo"/>
                     <div className="nav-links">
-                        <HeaderItem text="Home" href="index.html" />
-                        <HeaderItem text="Posts" href="posts.html" />
-                        <HeaderItem text="Projects" href="projects.html" />
-                        <HeaderItem text="About" href="about.html" />
-                        <HeaderItem text="Contact" href="contact.html" />
+                        <HeaderItem text="Home" to='/home' />
+                        <HeaderItem text="Posts" to='/posts' />
+                        <HeaderItem text="Projects" to='/projects' />
+                        <HeaderItem text="About" to='/about' />
+                        <HeaderItem text="Contact" to='/contact' />
                     </div>
             </nav>
             <hr className="fancy-hr" />

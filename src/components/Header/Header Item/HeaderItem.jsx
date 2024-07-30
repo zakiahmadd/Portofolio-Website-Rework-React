@@ -1,8 +1,9 @@
 import React from "react";
 import "./HeaderItem.css";
+import { Link } from "react-router-dom";
 
 function HeaderItem(props) {
-    return <a href={props.href}>{props.text}</a>
+    return <Link to={props.to}>{props.text}</Link>
 }
 
 export default HeaderItem;
