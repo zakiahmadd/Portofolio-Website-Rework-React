@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './components/Header/Header.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/Home/Home.jsx'
 import AboutPage from './pages/About/About.jsx'
@@ -12,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Portofolio-Website-Rework-React">
         <Routes>
           <Route path='/' element={<HomePage />}/>
           <Route index path='/home' element={<HomePage />} />

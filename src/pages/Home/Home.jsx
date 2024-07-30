@@ -7,6 +7,7 @@ import "./Home.css";
 import postData from "../../data/post-data.jsx";
 import projectData from "../../data/project-data.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
+import profilePic from '../../assets/berdiri.JPG';
 
 function HomePage() {
   const usedPostData = postData.slice(-2);
@@ -48,7 +49,7 @@ function HomePage() {
             </a>
           </div>
         </div>
-        <img src="../../src/assets/berdiri.JPG" alt="picture of me" />
+        <img src={profilePic} alt="picture of me" />
       </div>
 
       <div className="recent">
