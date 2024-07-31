@@ -9,7 +9,7 @@ const projectData = [
         tags:"HTML, CSS, JavaScript, PostgreSQL",
         description:"First ever Web Development Project. The website where i'm gonna put all my Software Development progress. This website will continue to be updated.",
         imgSrc: project1,
-        more: true,
+        more: false,
     },
     {
         title:"Keeper App Clone",
