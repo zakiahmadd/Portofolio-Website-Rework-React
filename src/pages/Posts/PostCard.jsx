@@ -25,10 +25,10 @@ function PostCard(props) {
         </div>
         <p>{props.description}</p>
         <div class="button-group">
-          <a href="">
+          <a href="#">
             <i class="bx bxs-copy" onClick={() => copyToClipboard(linkToCopy)}></i>
           </a>
-          <a href="">
+          <a href="#">
             <i class="bx bx-link-alt" onClick={() => copyToClipboard(linkToCopy)}></i>
           </a>
           {/* <a href="">
