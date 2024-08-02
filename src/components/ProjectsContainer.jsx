@@ -13,10 +13,43 @@ function ProjectsContainer(props) {
           .featured {
             padding: 60px 148px;
           }
+
+          @media screen and (max-width:1400px) {
+    
+            .featured {
+              padding: 40px 60px;
+              margin-bottom: 30px;
+            } 
+
+            .projects {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+            
+            .featured .project-item{
+              width: 90%;
+            }
+
+          }
+
+          @media screen and (max-width: 1200px) {
+
+              .featured {
+                  padding: 40px 40px;
+              }
+
+          @media screen and (max-width: 992px) {
+                .featured {
+                  padding: 40px 20px;
+              }
+          }
+
         `}
       </style>
       <div className="featured">
-        <Separator title="Featured Projects" to="/projects" view={props.view}/>
+        <Separator title="Featured Projects" to="/projects" view={props.view} />
         <div className="projects">
           {projectDataReversed.map((post, index) => {
             return (

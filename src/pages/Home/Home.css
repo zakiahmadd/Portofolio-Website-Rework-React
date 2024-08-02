@@ -11,6 +11,7 @@
 .hello {
     font-weight: 600;
 }
+
 .main .info h1 {
     font-size: 45px;
     margin-bottom: 40px;
@@ -87,4 +88,203 @@
 
 .view-all:hover {
     color: #eeeeee;
+}
+
+@media screen and (max-width:1400px) {
+    
+    .main{
+        padding: 0px 60px;
+    }
+
+    .recent{
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .fancy-hr {
+        width: 95%;
+        left: 40px;
+    }
+
+    .main {
+        padding: 40px 40px;
+        height: auto;
+    }
+
+    .main img {
+        height: 370px;
+        width: auto;
+    }
+
+    .recent {
+        padding: 40px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    nav {
+        padding: 20px;
+    }
+
+    /* .main {
+        padding: 0 20px;
+    } */
+
+    .fancy-hr {
+        width: 98%;
+        left: 15px;
+    }
+
+    .main img {
+        height: 350px;
+        width: auto;
+    }
+
+    .main .info h1 {
+        margin-bottom: 25px;
+    }
+
+    .main .info .desc {
+        margin-bottom: 30px;
+    }
+
+    .recent {
+        padding: 40px 20px;
+    }
+
+    .recent .posts .post-item {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .recent .post-item h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .recent h5, .recent p {
+        font-size: 15px;
+    }
+
+    .posts .post-item .info {
+        margin-bottom: 10px;
+    }
+
+    .featured {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        margin: 40px 0;
+    }
+
+    .main .info h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .main .info p{
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+
+    .main .info .contacts-logo i{
+        font-size: 40px;
+    }
+
+    .main img {
+        width: 70%;
+        height: auto;
+    }
+
+    .recent .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recent .posts .post-item {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        margin: 40px 0;
+    }
+
+    .main .info h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    .main .info p{
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+
+    .main .info .contacts-logo i{
+        font-size: 40px;
+    }
+
+    .main img {
+        width: 70%;
+        height: auto;
+    }
+
+    .recent .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recent .posts .post-item {
+        width: 80%;
+        height: auto;
+    }
+}   
+
+@media screen and (max-width: 500px) {
+    
+    .main {
+        padding: 10px 20px;
+    }
+
+    .recent .post-item {
+        width: 100%;
+    }
+
 }

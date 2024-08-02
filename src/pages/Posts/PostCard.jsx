@@ -25,6 +25,9 @@ function PostCard(props) {
         </div>
         <p>{props.description}</p>
         <div class="button-group">
+          {/* <a href="#">
+          <i class='bx bxs-heart'></i>
+          </a> */}
           <a href="#">
             <i class="bx bxs-copy" onClick={() => copyToClipboard(linkToCopy)}></i>
           </a>

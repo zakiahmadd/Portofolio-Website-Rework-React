@@ -20,7 +20,7 @@ function HomePage() {
           <h1>
             Zaki Ahmad
             <br />
-            Web Developer
+            Software Developer
           </h1>
           <p className="desc">
             An undergraduate student majoring in Actuarial Science. Passionate
