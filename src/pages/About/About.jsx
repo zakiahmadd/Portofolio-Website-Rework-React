@@ -2,6 +2,8 @@ import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import aboutImage from "../../assets/duduk setengah.JPG";
 import Separator from "../../components/Separator.jsx";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./About.css"
 
 function AboutPage() {
@@ -10,9 +12,9 @@ function AboutPage() {
       <Header />
       <div class="about-container">
         <Separator title="About Me" fontSize="25px"/> 
-        <div class="profile-container">
-          <img src={aboutImage} alt="" />
-          <div class="about-item">
+        <div class="profile-container" data-aos="fade-up" data-aos-duration="1000">
+          <img src={aboutImage} alt="profile-picture" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="500"/>
+          <div class="about-item" data-aos="fade-left" data-aos-duration="1000"data-aos-delay="1000">
             <h4>Zaki Ahmad</h4>
             <p>
               Zaki Ahmad is currently an undergraduate student majoring in

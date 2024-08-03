@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import MoreLink from "./MoreLink.jsx";
 
 function ProjectPost(props) {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
     <style>
@@ -40,11 +46,11 @@ function ProjectPost(props) {
       }
 
       h5 {
-        font-size: 18px;
+        font-size: 15px;
       }
 
       h3 {
-        font-size: 26px;
+        font-size: 21px;
       }
 
       @media screen and (max-width: 1400px) {
@@ -78,16 +84,7 @@ function ProjectPost(props) {
       }
     `}
   </style>
-    <div
-      class="project-item"
-      // style={{
-      //   display: "flex",
-      //   borderBottom: "#222831 1px solid",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      //   padding: "30px 30px",
-      // }}
-    >
+    <div class="project-item" data-aos="fade-left" data-aos-once="false" data-aos-easing="ease">
       <img
         src={props.img}
         alt=""

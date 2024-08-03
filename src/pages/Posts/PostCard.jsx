@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function PostCard(props) {
   const copyToClipboard = (text) => {
@@ -15,7 +17,7 @@ function PostCard(props) {
   const linkToCopy = `https://zakiahmadd.github.io/Portofolio-Website-Rework-React/`; 
 
   return (
-    <div className="posts">
+    <div className="posts" data-aos="fade-right">
       <div class="post">
         <h3>{props.title}</h3>
         <div className="info">
