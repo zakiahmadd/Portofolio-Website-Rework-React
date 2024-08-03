@@ -46,6 +46,13 @@ function ProjectsContainer(props) {
               }
           }
 
+          @media screen and (max-width: 768px) {
+             .featured .project-item{
+              width: 100%;
+            }
+          }
+       
+
         `}
       </style>
       <div className="featured">

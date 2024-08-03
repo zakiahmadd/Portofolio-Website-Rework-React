@@ -22,7 +22,7 @@ const projectData = [
     {
         title:"Portofolio Website Project Rework (Work In Progress)",
         year:"2024",
-        tags:"React.js, JavaScript, HTML, CSS, PostgreSQL, Express, Node.js",
+        tags:"React.js, JavaScript, HTML, CSS, Express, Node.js",
         description:"The website where i'm gonna put all my Software Development progress. This website will continue to be updated. This website is a rework of the previous Portofolio Website using React.js",
         imgSrc: project1,
         more: false,
