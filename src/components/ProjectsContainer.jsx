@@ -10,9 +10,6 @@ function ProjectsContainer(props) {
     <>
       <style>
         {`
-          .featured {
-            padding: 60px 148px;
-          }
 
           @media screen and (max-width:1400px) {
     

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Card from "./Card.jsx";
 import Separator from "../../components/Separator.jsx";
 import ProjectsContainer from "../../components/ProjectsContainer.jsx";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import postData from "../../data/post-data.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -23,9 +24,8 @@ function HomePage() {
             Software Developer
           </h1>
           <p className="desc">
-            An undergraduate student majoring in Actuarial Science. Passionate
-            in Software Development especially Web Development. Eager to explore
-            the Software Development world.
+            An undergraduate student majoring in Actuarial Science. Passionate  
+            in Software <br/>Development / Software Engineering. Eager to explore the Software Development world.
           </p>
           <div className="contacts-logo">
             <a
@@ -40,9 +40,9 @@ function HomePage() {
             >
               <i className="bx bxl-linkedin-square"></i>
             </a>
-            <a href="/contact">
+            <Link to="/contact"><a href="#">
               <i className="bx bxs-envelope"></i>
-            </a>
+            </a></Link>
             <a href="https://www.instagram.com/zakiahmaadd/" target="_blank">
               <i className="bx bxl-instagram-alt"></i>
             </a>

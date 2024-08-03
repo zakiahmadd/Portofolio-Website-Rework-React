@@ -62,7 +62,6 @@ nav img {
 }
 
 @media screen and (max-width: 768px) {
-
     .fancy-hr {
         width: 98%;
         left: 10px;
@@ -70,7 +69,6 @@ nav img {
 }
 
 @media screen and (max-width: 576px) {
-    
     nav img{
         display: none;
     }

@@ -12,6 +12,7 @@
     font-weight: 600;
 }
 
+
 .main .info h1 {
     font-size: 45px;
     margin-bottom: 40px;
@@ -191,6 +192,11 @@
         display: none;
     }
 
+    .fancy-hr {
+        width: 98%;
+        left: 10px;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
@@ -237,6 +243,11 @@
 
     nav img {
         display: none;
+    }
+
+    .fancy-hr {
+        width: 90%;
+        left: 25px;
     }
 
     .main {

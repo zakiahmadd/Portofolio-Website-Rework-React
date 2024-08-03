@@ -24,3 +24,14 @@
     font-size: 15px;
     opacity: 50%;
 }
+
+@media screen and (max-width: 992px) {
+
+    .footer .footer-logo i{
+        font-size: 35px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}

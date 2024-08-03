@@ -60,6 +60,7 @@
     transition: all 0.3s ease;
     font-size: 15px;
     font-weight: 500;
+    color: black
 }
 .form-container button:hover{
     background-color: #5bc0de;
@@ -69,4 +70,63 @@
 form label {
     font-size: 18x;
     font-weight: 500;
+}
+
+@media screen and (max-width:1400px) {
+    .contact-container {
+        padding:  40px 60px 0;;
+        margin-bottom: 60px;
+    }
+
+    .contact-container .form-container {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-container {
+        padding:  40px;
+        margin-bottom: 30px;
+    }
+
+    .contact-container .form-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contact-container {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        padding: 40px 20px;
+    }
+
+    .contact-container .form-container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-container {
+        padding: 40px 10px;
+    }
+
+    .contact-container .form-container {
+        padding: 40px 30px;
+        width: 95%;
+        align-self: center;
+    }
 }

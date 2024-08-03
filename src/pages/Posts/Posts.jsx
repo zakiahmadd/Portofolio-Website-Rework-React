@@ -10,13 +10,6 @@ const postDataReversed = postData.reverse();
 function PostsPage() {
   return (
     <>
-      <style>
-        {`
-          .container {
-            padding: 40px 148px;
-          }
-        `}
-      </style>
       <Header />
       <div className="container">
         <Separator title="Posts" fontSize="25px" />

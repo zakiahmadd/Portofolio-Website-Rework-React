@@ -4,18 +4,11 @@ import Footer from "../../components/Footer/Footer.jsx";
 import Separator from "../../components/Separator.jsx";
 import ProjectPost from "../../components/ProjectPost.jsx";
 import projectData from "../../data/project-data.jsx";
-// import "./ProjectsPage.css"; // Make sure to create this CSS file
+import "./Projects.css";
 
 function ProjectsPage() {
   return (
     <>
-      <style>
-        {`
-          .featured {
-            padding: 40px 148px;
-          }
-        `}
-      </style>
       <Header />
       <div className="featured">
         <Separator
