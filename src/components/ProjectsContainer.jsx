@@ -65,6 +65,7 @@ function ProjectsContainer(props) {
                 description={post.description}
                 img={post.imgSrc}
                 more={post.more}
+                link={post.link}
               />
             );
           })}

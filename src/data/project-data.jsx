@@ -13,6 +13,7 @@ const projectData = [
       "First ever Web Development Project. The website where i'm gonna put all my Software Development progress. This website will continue to be updated.",
     imgSrc: project1,
     more: false,
+    link: "",
   },
   {
     title:
@@ -22,7 +23,8 @@ const projectData = [
     description:
       "Applied foundational principles of statistics and data science. Complete with data visualization using charts",
     imgSrc: project6,
-    more: false,
+    more: true,
+    link: "https://github.com/zakiahmadd/Data-Science-ANN-Project",
   },
   {
     title: "Keeper App Clone",
@@ -31,7 +33,8 @@ const projectData = [
     description:
       "This is a Keeper App clone. You can post your notes in this app. Caution when using because the app is yet to connect to database!",
     imgSrc: project2,
-    more: false,
+    more: true,
+    link: "https://zakiahmadd.github.io/Keeper-App-Project/",
   },
   {
     title: "Portofolio Website Project Rework (Work In Progress)",
@@ -41,6 +44,7 @@ const projectData = [
       "The website where i'm gonna put all my Software Development progress. This website will continue to be updated. This website is a rework of the previous Portofolio Website using React",
     imgSrc: project1,
     more: false,
+    link: "",
   },
   {
     title: "Fullstack API Blog Project",
@@ -49,7 +53,8 @@ const projectData = [
     description:
       "Creating a blog API Project complete with frontend and backend server and also the API server. Not yet connected to database",
     imgSrc: project4,
-    more: false,
+    more: true,
+    link: "https://github.com/zakiahmadd/Fullstack-API-Blog-Project",
   },
   {
     title:
@@ -59,7 +64,8 @@ const projectData = [
     description:
       "Applied foundational principles of statistics and data science. Integrated clustering algorithms to categorize housing data based on price and land area into distinct groups",
     imgSrc: project5,
-    more: false,
+    more: true,
+    link: "https://prosidingsnsa.statistics.unpad.ac.id/?journal=prosidingsnsa&page=article&op=view&path%5B%5D=341",
   },
 ];
 

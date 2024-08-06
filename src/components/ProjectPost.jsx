@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import MoreLink from "./MoreLink.jsx";
 
 function ProjectPost(props) {
-
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
     <>
-    <style>
-    {`
+      <style>
+        {`
       .project-item {
         display: flex;
         border-bottom: #222831 1px solid;
@@ -83,48 +82,24 @@ function ProjectPost(props) {
         }
       }
     `}
-  </style>
-    <div class="project-item" data-aos="fade-left" data-aos-once="false" data-aos-easing="ease">
-      <img
-        src={props.img}
-        alt=""
-        // style={{
-        //   height: "auto",
-        //   width: "350px",
-        //   borderRadius: "7px",
-        //   boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
-        // }}
-      />
-      <div class="project-info" >
-        <h3>{props.title}</h3>
-        <div
-          class="project-year"
-          // style={{
-          //   display: "flex",
-          //   alignItems: "center",
-          //   gap: "10px",
-          //   marginBottom: "10px",
-          //   fontSize: "18px",
-          // }}
-        >
-          <h5
-            class="year"
-            // style={{
-            //   backgroundColor: "#5bc0de",
-            //   padding: "2px 8px",
-            //   borderRadius: "20px",
-            // }}
-          >
-            {props.year}
-          </h5>
-          <h5>{props.tags}</h5>
+      </style>
+      <div
+        class="project-item"
+        data-aos="fade-left"
+        data-aos-once="false"
+        data-aos-easing="ease"
+      >
+        <img src={props.img} alt="" />
+        <div class="project-info">
+          <h3>{props.title}</h3>
+          <div class="project-year">
+            <h5 class="year">{props.year}</h5>
+            <h5>{props.tags}</h5>
+          </div>
+          <p>{props.description}</p>
+          {props.more ? <MoreLink link={props.link} /> : null}
         </div>
-        <p>
-          {props.description}
-        </p>
-        {props.more ? <MoreLink /> : null}
       </div>
-    </div>
     </>
   );
 }
