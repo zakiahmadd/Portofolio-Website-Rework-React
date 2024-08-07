@@ -3,6 +3,7 @@ import project2 from "../assets/Keeper Project.jpg";
 import project4 from "../assets/Project4.png";
 import project5 from "../assets/Project5.png";
 import project6 from "../assets/Project6.png";
+import project7 from "../assets/Project7.png";
 
 const projectData = [
   {
@@ -55,6 +56,17 @@ const projectData = [
     imgSrc: project4,
     more: true,
     link: "https://github.com/zakiahmadd/Fullstack-API-Blog-Project",
+  },
+  {
+    title:
+      "Actuarial Science Paper Publication: Estimating Benefit Reserve from Life Insurance Product",
+    year: "2024",
+    tags: "Paper Publication, Python, Actuarial Science, NumPy, Pandas",
+    description:
+      "Applied foundational principles of statistics and actuarial science, utilizing the prospective method of Benefit Reserve Estimation",
+    imgSrc: project7,
+    more: true,
+    link: "https://prosidingsnsa.statistics.unpad.ac.id/?journal=prosidingsnsa&page=article&op=view&path%5B%5D=396",
   },
   {
     title:
